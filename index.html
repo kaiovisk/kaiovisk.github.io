@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10">
+        <title>Page title</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+        <script defer src="script.js"></script>
+    </head>
+
+    <body class="bg-near-white near-dark flex flex-column measure-wide center">
+        <div class="helvetica">
+            <header>
+                <h1 class="f1 lh-copy">Main title</h1>
+                <h3>A long enough subtitle</h3>
+                <p>
+                By <a href="#">Kaio Roque</a>, last updated
+                <time datetime="2024-05-31"><a href="#">May 31, 2024</a></time>.
+                </p>
+        </div>
+        <nav class="nav calisto" id="nav">
+            <details>
+                <summary>
+                    <a href="#">
+                        <span>Select language</span>
+                    </a>
+                </summary>
+                <p><a href="#">English</a></p>
+                <p><a href="#">Portuguese</a></p>
+            </details>
+
+            <ul class="f4 pl0-ns pl3 lst-square lst-outside">
+                <li>
+                    <a data-nav="" href="#">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-nav="" href="#">
+                        <span>Menu 1</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-nav="" href="#">
+                        <span>Menu 2</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-nav="" href="#">
+                        <span>Menu 3</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-nav="" href="#">
+                        <span>Menu 4</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="javascript:void(0);" id="menu-toggle" onclick="togglemenu()">
+                <div class="menu-toggle__bar1"></div>
+                <div class="menu-toggle__bar2"></div>
+                <div class="menu-toggle__bar3"></div>
+            </a>
+
+        </nav>
+            </header>
+            </div>
+
+            <main>
+                <h4>Here I'll insert some stuff, like images and grids.</h4>
+                <div>
+                    <section class="">
+                        <article>
+                            <header>
+                                <h2>
+                                    Article title 1
+                                    <aside class="mt0 fw3 dib f7">
+                                        <a href="#">Permalink</a>
+                                    </aside>
+                                </h2>
+                                <p>Published on <time datetime="2024-05-31"><a href="#">May 31, 2024</a></time> by <a
+                                                                               href="#">Kaio Roque</a></p>
+                            </header>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum praesentium iste hic nulla culpa saepe omnis commodi ratione provident,
+                            reprehenderit dicta dolore doloremque doloribus cum.
+                            Numquam debitis beatae quam ullam.
+                            </p>
+                        </article>
+                    </section>
+
+                    <section>
+                        <article>
+                            <header>
+                                <h2>
+                                    Article title 2
+                                    <aside class="mt0 fw3 dib f7">
+                                        <a href="#">Permalink</a>
+                                    </aside>
+                                </h2>
+                                <p>Published on <time datetime="2024-05-31"><a href="#">May 31, 2024</a></time> by <a
+                                                                               href="#">Kaio Roque</a></p>
+                            </header>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum praesentium iste hic nulla culpa saepe omnis commodi ratione provident,
+                            reprehenderit dicta dolore doloremque doloribus cum.
+                            Numquam debitis beatae quam ullam.
+                            </p>
+                        </article>
+                    </section>
+
+                    <section>
+                        <article>
+                            <header>
+                                <h2>
+                                    Article title 3
+                                    <aside class="mt0 fw3 dib f7">
+                                        <a href="#">Permalink</a>
+                                    </aside>
+                                </h2>
+                                <p>Published on <time datetime="2024-05-31"><a href="#">May 31, 2024</a></time> by <a
+                                                                               href="#">Kaio Roque</a></p>
+                            </header>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum praesentium iste hic nulla culpa saepe omnis commodi ratione provident,
+                            reprehenderit dicta dolore doloremque doloribus cum.
+                            Numquam debitis beatae quam ullam.
+                            </p>
+                        </article>
+                    </section>
+
+                    <section>
+                        <article>
+                            <header>
+                                <h2>
+                                    Article title 4
+                                    <aside class="mt0 fw3 dib f7">
+                                        <a href="#">Permalink</a>
+                                    </aside>
+                                </h2>
+                                <p>Published on <time datetime="2024-05-31"><a href="#">May 31, 2024</a></time> by <a
+                                                                               href="#">Kaio Roque</a></p>
+                            </header>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum praesentium iste hic nulla culpa saepe omnis commodi ratione provident,
+                            reprehenderit dicta dolore doloremque doloribus cum.
+                            Numquam debitis beatae quam ullam.
+                            </p>
+                        </article>
+                    </section>
+                </div>
+                <aside>
+                    <h2>About section</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum praesentium iste hic nulla culpa saepe omnis commodi ratione provident,
+                    reprehenderit dicta dolore doloremque doloribus cum.
+                    Numquam debitis beatae quam ullam.
+                    </p>
+                </aside>
+            </main>
+
+            <footer>
+                <div>
+                    <p>
+                    <small>
+                        ©
+                        <script>document.write(new Date().getFullYear())</script>
+                        Kaio Roque. All Rights Reserved.
+                    </small>
+                    </p>
+                </div>
+            </footer>
+    </body>
+
+</html>
