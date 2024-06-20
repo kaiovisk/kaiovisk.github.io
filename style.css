@@ -4,6 +4,32 @@ html {
     font-size: 21px;
 }
 
+/*    
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 800 
+*/
+
+.jetbrains-mono-title {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.jetbrains-mono-subtitle {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.jetbrains-mono-paragraph {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .helvetica {
     font-family: "Helvetica", sans-serif;
 }
