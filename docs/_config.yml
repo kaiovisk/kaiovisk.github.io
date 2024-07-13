@@ -1,4 +1,5 @@
 url: https://kaiovisk.github.io/
+theme: jekyll-theme-minimal
 
 # Metadados do blog
 title: "Kaio Roque"
@@ -25,7 +26,6 @@ social:
     url: https://github.com/kaiovisk 
 
 # Configurações de build
-theme: jekyll-theme-minimal
 markdown: kramdown
 permalink: pretty  
 highlighter: rouge
