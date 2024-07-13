@@ -24,7 +24,8 @@ social:
   - title: github
     url: https://github.com/kaiovisk 
 
-# Configurações de build 
+# Configurações de build
+theme: jekyll-minimal-theme
 markdown: kramdown
 permalink: pretty  
 highlighter: rouge
